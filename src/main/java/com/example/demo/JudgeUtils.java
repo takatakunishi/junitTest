@@ -7,7 +7,7 @@ public class JudgeUtils extends MiraiPrjApplication {
 
 	// 定数
 	public static final int BILLINGAGE = 18;
-	public static final int PLAYAGE = 18;
+	public static final int PLAYAGE = 17;
 
 	/**
 	 * 課金対象か判定するメソッド<br>
