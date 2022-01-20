@@ -196,7 +196,7 @@ class JudgeUtilsTest {
 		// 事前処理(Mock)
 				Calendar cal = Calendar.getInstance();
 				cal.clear();
-				cal.set(Calendar.YEAR, 2019);
+				cal.set(Calendar.YEAR, 2018);
 				cal.set(Calendar.MONTH, Calendar.APRIL);
 				cal.set(Calendar.DAY_OF_MONTH, 02);
 				Date date = cal.getTime();
@@ -205,7 +205,7 @@ class JudgeUtilsTest {
 				// 引数
 				Calendar birthcal = Calendar.getInstance();
 				birthcal.clear();
-				birthcal.set(Calendar.YEAR, 2000);
+				birthcal.set(Calendar.YEAR, 2002);
 				birthcal.set(Calendar.MONTH, Calendar.APRIL);
 				birthcal.set(Calendar.DAY_OF_MONTH, 01);
 				Date birthDay = birthcal.getTime();
